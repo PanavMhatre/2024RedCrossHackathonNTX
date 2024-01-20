@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function Sidebar() {
-    return (
-        <div>
-            <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+  return (
+    <div>
+      <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="#">
           <img
             className="w-auto h-7"
@@ -25,20 +25,26 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-file-info"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"
-                  />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                  <path d="M11 14h1v4h1" />
+                  <path d="M12 11h.01" />
                 </svg>
 
-                <span className="mx-2 text-sm font-medium">Creating a Plan</span>
+                <span className="mx-2 text-sm font-medium">
+                  Creating a Plan
+                </span>
               </a>
 
               <a
@@ -47,20 +53,26 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-first-aid-kit"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"
-                  />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M8 8v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+                  <path d="M4 8m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                  <path d="M10 14h4" />
+                  <path d="M12 12v4" />
                 </svg>
 
-                <span className="mx-2 text-sm font-medium">Creating a Safety Kit</span>
+                <span className="mx-2 text-sm font-medium">
+                  Creating a Safety Kit
+                </span>
               </a>
             </div>
 
@@ -74,20 +86,40 @@ function Sidebar() {
                 href="#"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="h-8 w-8 text-gray-500"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
+                  {" "}
+                  <path stroke="none" d="M0 0h24v24H0z" />{" "}
+                  <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" />{" "}
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
-                  />
+                    d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72"
+                    transform="rotate(60 12 12)"
+                  />{" "}
+                  <path
+                    d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72"
+                    transform="rotate(120 12 12)"
+                  />{" "}
+                  <path
+                    d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72"
+                    transform="rotate(180 12 12)"
+                  />{" "}
+                  <path
+                    d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72"
+                    transform="rotate(240 12 12)"
+                  />{" "}
+                  <path
+                    d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72"
+                    transform="rotate(300 12 12)"
+                  />{" "}
                 </svg>
-
                 <span className="mx-2 text-sm font-medium">Winter Weather</span>
               </a>
 
@@ -96,20 +128,21 @@ function Sidebar() {
                 href="#"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="h-8 w-8 text-gray-500"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"
-                  />
+                  {" "}
+                  <path stroke="none" d="M0 0h24v24H0z" />{" "}
+                  <path d="M7 18a4.6 4.4 0 0 1 0 -9h0a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />{" "}
+                  <polyline points="13 14 11 18 14 18 12 22" />
                 </svg>
-
                 <span className="mx-2 text-sm font-medium">Severe Weather</span>
               </a>
 
@@ -118,18 +151,20 @@ function Sidebar() {
                 href="#"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="h-8 w-8 text-gray-500"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
-                  />
+                  {" "}
+                  <path stroke="none" d="M0 0h24v24H0z" />{" "}
+                  <path d="M7 18a4.6 4.4 0 0 1 0 -9h0a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7" />{" "}
+                  <path d="M11 13v2m0 3v2m4 -5v2m0 3v2" />
                 </svg>
 
                 <span className="mx-2 text-sm font-medium">Flooding</span>
@@ -140,17 +175,22 @@ function Sidebar() {
                 href="#"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 text-gray-500"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-5 h-5"
                 >
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                    stroke-width="2"
+                    d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
                   />
                 </svg>
 
@@ -163,17 +203,22 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-tornado"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
-                  />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M21 4l-18 0" />
+                  <path d="M13 16l-6 0" />
+                  <path d="M11 20l4 0" />
+                  <path d="M6 8l14 0" />
+                  <path d="M4 12l12 0" />
                 </svg>
 
                 <span className="mx-2 text-sm font-medium">Tornado</span>
@@ -185,17 +230,25 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-building"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
-                  />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l18 0" />
+                  <path d="M9 8l1 0" />
+                  <path d="M9 12l1 0" />
+                  <path d="M9 16l1 0" />
+                  <path d="M14 8l1 0" />
+                  <path d="M14 12l1 0" />
+                  <path d="M14 16l1 0" />
+                  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
                 </svg>
 
                 <span className="mx-2 text-sm font-medium">Earthquake</span>
@@ -213,17 +266,19 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-flag"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
-                  />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z" />
+                  <path d="M5 21v-7" />
                 </svg>
 
                 <span className="mx-2 text-sm font-medium">US Government</span>
@@ -235,51 +290,32 @@ function Sidebar() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  className="icon icon-tabler icon-tabler-medical-cross-filled"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  stroke-width="2"
                   stroke="currentColor"
-                  className="w-5 h-5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"
+                    d="M11 2l-.15 .005a2 2 0 0 0 -1.85 1.995v2.803l-2.428 -1.401a2 2 0 0 0 -2.732 .732l-1 1.732l-.073 .138a2 2 0 0 0 .805 2.594l2.427 1.402l-2.427 1.402a2 2 0 0 0 -.732 2.732l1 1.732l.083 .132a2 2 0 0 0 2.649 .6l2.428 -1.402v2.804a2 2 0 0 0 2 2h2l.15 -.005a2 2 0 0 0 1.85 -1.995v-2.804l2.428 1.403a2 2 0 0 0 2.732 -.732l1 -1.732l.073 -.138a2 2 0 0 0 -.805 -2.594l-2.428 -1.403l2.428 -1.402a2 2 0 0 0 .732 -2.732l-1 -1.732l-.083 -.132a2 2 0 0 0 -2.649 -.6l-2.428 1.4v-2.802a2 2 0 0 0 -2 -2h-2z"
+                    stroke-width="0"
+                    fill="currentColor"
                   />
                 </svg>
 
                 <span className="mx-2 text-sm font-medium">Red Cross</span>
               </a>
-
-              <a
-                className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  className="w-5 h-5"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
-                  />
-                </svg>
-
-                <span className="mx-2 text-sm font-medium">IFRC</span>
-              </a>
             </div>
-
           </nav>
         </div>
-
       </aside>
-        </div>
-    );
+    </div>
+  );
 }
 
 export default Sidebar;
