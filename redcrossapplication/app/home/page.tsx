@@ -71,6 +71,23 @@ export default function page() {
               </div>
           </div>
         </section>
+        <section className="bg-white">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+              <div className="mx-auto max-w-screen-sm text-center">
+                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-red-700 ">Or ...</h2>
+              </div>
+          </div>
+        </section>
+        <section className="bg-white">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+              <div className="mx-auto max-w-screen-sm text-center">
+                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-red-700 ">Contact Us!</h2>
+                  <p className="mb-6 font-light text-gray-700  md:text-lg">If you have any questions, suggestions, or anything else that you want to ask us.</p>
+                  <a href="/about" className="text-red-700 bg-white border-red-700 border-2 hover:bg-red-700 hover:text-white duration-300  font-medium rounded-3xl text-l px-7 py-2.5 mr-2 mb-2 ">Let's Go!</a>
+              </div>
+          </div>
+        </section>
+        
       </div>
   )
 }
