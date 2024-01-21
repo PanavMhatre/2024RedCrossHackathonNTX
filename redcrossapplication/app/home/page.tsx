@@ -72,7 +72,7 @@ export default function page() {
           </div>
         </section>
         <section className="bg-white">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div className="py-2 px-4 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
               <div className="mx-auto max-w-screen-sm text-center">
                   <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-red-700 ">Or ...</h2>
               </div>
