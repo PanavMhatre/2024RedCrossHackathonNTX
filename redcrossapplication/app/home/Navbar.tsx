@@ -31,9 +31,6 @@ export default function Navbar() {
                               <a href="/info" className="block py-2 pr-4 pl-3 text-red-600 border-b hover:text-red-500 duration-300 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Resources</a>
                           </li>
                           <li>
-                              <a href="#" className="block py-2 pr-4 pl-3 text-red-600 border-b hover:text-red-500 duration-300 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Features</a>
-                          </li>
-                          <li>
                               <a href="#" className="block py-2 pr-4 pl-3 text-red-600 border-b hover:text-red-500 duration-300 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Team</a>
                           </li>
                           <li>
