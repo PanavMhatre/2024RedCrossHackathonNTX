@@ -1,15 +1,17 @@
 import React from "react";
+import Image from 'next/image'
 
 function Sidebar() {
   return (
     <div>
       <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="#">
-          <img
-            className="w-auto h-7"
-            src="https://merakiui.com/images/logo.svg"
-            alt=""
-          />
+        <Image
+      src="/profile.png"
+      width={7}
+      height={7}
+      alt="Picture of the author"
+    />
         </a>
 
         <div className="flex flex-col justify-between flex-1 mt-6">
