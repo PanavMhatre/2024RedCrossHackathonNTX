@@ -46,8 +46,8 @@ export default function page() {
                       <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
                           <svg className="w-5 h-5 text-white lg:w-6 lg:h-6 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
                       </div>
-                      <h3 className="mb-2 text-xl font-bold text-white ">Responders Map</h3>
-                      <p className="text-white ">Find responders for emergencies in your local area so you can be prepared for any kind of situation.</p>
+                      <h3 className="mb-2 text-xl font-bold text-white ">Contact Us</h3>
+                      <p className="text-white ">Have any doubts, improvements, or anything else that we should have brought to our attention? Use our contact form!</p>
                   </div>
                   <div>
                       <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
