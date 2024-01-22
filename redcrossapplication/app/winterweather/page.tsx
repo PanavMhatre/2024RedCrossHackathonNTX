@@ -4,9 +4,9 @@ import Sidebar from '../components/Sidebar';
 
 function Page() {
     return (
-        <div>
+        <div className='flex'>
             <Sidebar />
-            <div className="ml-90">
+            <div className="ml-90 p-5 bg-white">
                 <h1 className="text-lg font-medium text-gray-900 dark:text-white">Winter Storm Warning</h1>
                 <p className="paragraph">
                     Issued when hazardous winter weather in the form of heavy snow, heavy freezing rain, or heavy sleet is imminent or occurring. Winter Storm Warnings are usually issued 12 to 24 hours before the event is expected to begin.

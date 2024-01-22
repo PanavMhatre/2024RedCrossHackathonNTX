@@ -1,15 +1,15 @@
 import React from "react";
 import Image from 'next/image'
-
+import logo from "../assets/redAlertLogo.png"
 function Sidebar() {
   return (
     <div>
       <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-        <a href="#">
+        <a href="/">
         <Image
-      src="/profile.png"
-      width={7}
-      height={7}
+      src={logo}
+      width={30}
+      height={30}
       alt="Picture of the author"
     />
         </a>
@@ -23,7 +23,7 @@ function Sidebar() {
 
               <a
                 className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
+                href="/info"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ function Sidebar() {
 
               <a
                 className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
+                href="/makeakit"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ function Sidebar() {
 
               <a
                 className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
+                href="/winterweather"
               >
                 <svg
                   className="h-8 w-8 text-gray-500"
@@ -127,7 +127,7 @@ function Sidebar() {
 
               <a
                 className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
+                href="/severeweather"
               >
                 <svg
                   className="h-8 w-8 text-gray-500"
@@ -150,7 +150,7 @@ function Sidebar() {
 
               <a
                 className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-                href="#"
+                href="flooding"
               >
                 <svg
                   className="h-8 w-8 text-gray-500"

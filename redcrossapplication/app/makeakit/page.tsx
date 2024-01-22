@@ -3,9 +3,9 @@ import Sidebar from '../components/Sidebar';
 
 function page() {
     return (
-        <div>
+        <div className='flex'>
             <Sidebar />
-            <div className="ml-90">
+            <div className="ml-90 p-5 bg-white">
                 <h2 className="text-lg font-medium text-gray-900 dark:text-white">
                     Basic First Aid Items in Your Kit:
                 </h2>
@@ -22,7 +22,7 @@ function page() {
                     <li>First Aid book</li>
                     <li>Non-prescription drugs (aspirin or non-aspirin pain reliever, anti-diarrhea medication, antacid, laxative)</li>
                 </ul>
-                <p className="text-lg font-medium text-gray-900 dark:text-white">
+                <p className="text-lg font-medium text-gray-900 dark:text-white mt-5">
                     Sanitation
                 </p>
                 <p>

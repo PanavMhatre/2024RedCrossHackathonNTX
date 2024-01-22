@@ -3,11 +3,10 @@ import Sidebar from "../components/Sidebar";
 
 function page() {
   return (
-    <div>
+    <div className="flex">
       <Sidebar />
-      <p className="ml-90 text-lg font-medium text-gray-900 dark:text-white">
-        {/* BEGIN: ed8c6549bwf9 */}
-        <h2>Plan for the emergencies that are most likely to happen where you live</h2>
+      <div className="ml-95 p-5 bg-white">
+        <h2 className="text-lg font-medium text-gray-900 dark:text-white">Plan for the emergencies that are most likely to happen where you live</h2>
         <ul>
           <li>Be familiar with natural disaster risks in your community.</li>
           <li>Consider how you will respond to emergencies that can happen anywhere, such as home fires and floods.</li>
@@ -15,7 +14,7 @@ function page() {
           <li>Think about emergencies that may require your family to shelter in place (such as a winter storm), vs. emergencies that may require evacuation (such as a hurricane).</li>
           <li>Consult our emergency resource library for tips on preparing for, responding to, and recovering from specific disasters.</li>
         </ul>
-        <h2>Plan what to do in case you are separated during an emergency</h2>
+        <h2 className="text-lg font-medium text-gray-900 dark:text-white mt-10">Plan what to do in case you are separated during an emergency</h2>
         <ul>
           <li>Choose two places to meet up:</li>
           <ul>
@@ -27,8 +26,7 @@ function page() {
           <li>How will you need to adapt your plan if they are at home?</li>
           <li>What will you need to do differently if they are away?</li>
         </ul>
-        {/* END: ed8c6549bwf9 */}
-      </p>
+      </div>
     </div>
   );
 }
